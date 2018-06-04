@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<remap from="robot/laser/scan1" to="/scan"/> 
+  <node pkg="slam_karto" type="slam_karto" name="slam_karto" output="screen" >    
+    </node>
+</launch>
